@@ -1,0 +1,81 @@
+gfg links 
+https://www.geeksforgeeks.org/a-complete-step-by-step-guide-for-placement-preparation-by-geeksforgeeks/
+https://www.geeksforgeeks.org/top-25-interview-questions/
+https://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/
+https://www.geeksforgeeks.org/interview-preparation-for-software-developer/
+
+
+
+https://www.safaribooksonline.com/library/view/server-side-programming-with/9781788476126/video1_3.html
+
+
+
+https://practice.geeksforgeeks.org/problems/print-an-array-in-pendulum-arrangement/0
+	
+	1 --> (n-1)/2 +-0
+	2 --> (n-1)/2 + 1
+	3 --> (n-1)/2 - 1
+	4 --> (n-1)/2 + 2
+	5 --> (n-1)/2 - 2
+	6 --> (n-1)/2 + 3
+	7 --> (n-1)/2 - 3
+	
+	
+	
+	1 --> (n-1)/2 +-0
+	2 --> (n-1)/2 + 1
+	3 --> (n-1)/2 - 1
+	4 --> (n-1)/2 + 2
+	5 --> (n-1)/2 - 2
+	6 --> (n-1)/2 + 3
+	7 --> (n-1)/2 - 3
+	8 --> (n-1)/2 + 4
+	
+
+1 2 3 4 5 6 7 8
+7 5 3 1 2 4 6 8
+
+//via array rotaion
+12345678
+87654312
+31245678
+
+
+1 2 3 4 5 6 7
+7 5 3 1 2 4 6	
+
+
+k in 0 to n/2	
+	mid + (-1)^(k) . k   
+
+	1 2 3 4 5
+	5 3 1 2 4
+	
+	
+A. 1)sort 2)generate  (array)
+
+B. Through Linked List: 
+	copy to new array in the above order directly by picking the minimum inserting in the new array and removing from source array.  ( N + N-1 + N-2 ... = O(N2) ) :LL
+
+
+
+
+
+coding bat 
+We sleep in if it is not a weekday or we're on vacation
+
+weekday?	vacation?	Sleepin?
+0			0			1
+0			1			1
+1			0			0
+1			1			1 
+
+We have two monkeys, a and b, and the parameters aSmile and bSmile indicate if each is smiling. 
+We are in trouble if they are both smiling or if neither of them is smiling. Return true if we are in trouble.
+aSmile	bSmile	trouble?
+0		0		1
+0		1		0
+1		0		0
+1		1		1
+
+
