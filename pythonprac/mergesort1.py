@@ -42,7 +42,9 @@ def merge(arr,p,q,r):
 			k += 1
 		else: return
 
-tarr = [1,2,4,3,10,6,9,7,3,5,8]
+#tarr = [1,2,4,3,10,6,9,7,3,5,8]
+tarr = [10,9,8,7,6,5,4,3,2,1]
+
 mergesort(tarr, 0, len(tarr)-1)
 
 print(tarr)		
